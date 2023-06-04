@@ -1,0 +1,11 @@
+{
+  "name": "m7soun/lynk",
+  "description": "A hello world composer private package.",
+  "autoload": {
+    "psr-4": {
+      "Lyve\\Lynk\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
