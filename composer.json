@@ -8,9 +8,4 @@
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
-  "scripts": {
-    "post-install-cmd": [
-      "php -r \"copy(__DIR__.'/linker', dirname(dirname(dirname(__DIR__))).'/linker');\""
-    ]
-  }
 }

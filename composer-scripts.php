@@ -1,7 +1,7 @@
 <?php
 
 $scriptDir = __DIR__;
-$source = realpath($scriptDir . DIRECTORY_SEPARATOR . 'linker');
+$source = realpath($scriptDir . DIRECTORY_SEPARATOR . 'lynk');
 $destination = dirname(dirname($scriptDir)) . DIRECTORY_SEPARATOR . 'lyve-packages' . DIRECTORY_SEPARATOR . 'packages-tester' . DIRECTORY_SEPARATOR . 'linker';
 
 if (!file_exists($destination)) {
